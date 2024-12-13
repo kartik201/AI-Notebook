@@ -1,0 +1,70 @@
+/* Module2 Container */
+.module2-container {
+    background: linear-gradient(to bottom, #f5f5f5, #dcdcdc);
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #1e1e1e; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  /* Header Section */
+  .header-section {
+    background: #000; 
+    color: #fff; 
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 800px;
+  }
+  
+  .header-section h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+  }
+  
+  /* Content Section */
+  .content-section {
+    width: 80%;
+    max-width: 900px;
+    text-align: left;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    margin-top: 20px;
+  }
+  
+  /* Content Heading */
+  .content-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* AI Points */
+  .ai-points {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ai-points li {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  
+  .ai-points li strong {
+    color: #ff4500; 
+  }
+  
